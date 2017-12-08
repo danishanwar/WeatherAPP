@@ -42,7 +42,7 @@ $(document).ready(function(){
 
 
 			}else{
-				$("#error").html("<div class='alert alert-danger'><a href='./current.html' class='close' data-dismiss='alert' aria-label='close'>&times;</a>Search Field cannot be empty.</div>");
+				$("#error").html("<div class='alert alert-danger'><a href='./index.html' class='close' data-dismiss='alert' aria-label='close'>&times;</a>Search Field cannot be empty.</div>");
 			}
 		});
 });
