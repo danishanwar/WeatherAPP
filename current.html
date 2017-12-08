@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Current Weather Information</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="styles.css"><link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+<div class="jumbotron" style="margin-bottom: 10px; color: white; background-color: green;">
+	<h2 class="text-center" style="font-size: 40px; font-weight: 500;">Get Current Weather Information</h2>
+</div>
+<div class="container" style="height: 100px;">
+		<h3>Enter City Name</h3>
+		<div class="row form-group form-inline" id="rowDiv">
+			<div class="col-2">
+				<input type="text" name="city" id="city" class="form-control" placeholder="City Name">
+			</div>
+			<div class="col-2">
+				<button id="submitWeather" class="btn btn-outline-success">Search City</button>
+			</div>
+				<button id="myLocation" class="btn btn-outline-success">Your Location</button>
+			</div>
+		</div>
+		<div id="error"></div>
+		<div id="show"></div>
+</div>
+
+	<p style="color: black; font-size: 14px; font-weight: bold;">Copyright &copy; Current Weather App Developed by 
+		<a href="https://github.com/danishanwar" style="color: rgba(0, 152, 0, 100);" target="_blank">
+			Md Danish Anwar
+		</a>
+	</p>
+
+
+	<script
+  src="https://code.jquery.com/jquery-3.2.1.min.js"
+  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous"></script>
+	<script type="text/javascript" src="weather.js"></script>
+
+</body>
+</html>
